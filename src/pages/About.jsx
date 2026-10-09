@@ -32,7 +32,7 @@ const About = () => {
           </div>
           <div className="about-portrait" data-reveal data-reveal-delay={160}>
             <img
-              src={resolveAssetPath('images/profile.jpg')}
+              src={resolveAssetPath('images/id.png')}
               alt="Omkar Deshmukh"
               decoding="async"
             />

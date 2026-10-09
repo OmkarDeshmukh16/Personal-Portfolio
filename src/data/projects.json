@@ -5,7 +5,7 @@
       "title": "OBE Evaluation System (Outcome Based Education)",
       "description": "Accreditation & outcome-based education platform built at DYPCOE&I Incubation Centre for faculty and principals to automate CO-PO mapping and attainment calculations required by NBA and NAAC.",
       "longDescription": "Selected as Full stack engineer to build, at the DYPCOE&I Incubation Centre, an Outcome Based Education (OBE) system that faculty, Heads of Departments (HODs), and the principal use for CO-PO mapping and attainment calculation, as mandated by NBA and NAAC accreditation standards. Automates complex direct and indirect attainment formulas, course outcome assessments, and department-wide accreditation reporting.",
-      "image": "images/projects/exam-scheduler.jpg",
+      "image": "images/projects/obe.png",
       "fallbackImage": "https://placehold.co/800x500/132038/5be9ff?text=OBE+Evaluation+System",
       "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "REST APIs", "MERN Stack"],
       "githubUrl": "https://github.com/OmkarDeshmukh16",
@@ -28,7 +28,7 @@
       "title": "Aahaar ai",
       "description": "AI-powered nutrition and personalized meal planning platform tailored for regional dietary habits, macronutrient optimization, and smart health tracking.",
       "longDescription": "Aahaar AI is an intelligent health-tech platform engineered to revolutionize dietary wellness. Built around modern LLM intelligence and nutritional data science, it generates personalized meal plans tailored to regional Indian diets, calculates accurate real-time macro breakdowns, and provides proactive conversational guidance for fitness, clinical dietary needs, and lifestyle improvement.",
-      "image": "images/projects/bitebook.jpg",
+      "image": "images/projects/aahaar-ai.png",
       "fallbackImage": "https://placehold.co/800x500/1f1a10/ffb84d?text=Aahaar+AI",
       "technologies": ["React.js", "Node.js", "Python", "Gemini API", "Claude API", "Tailored Nutrition Algorithms"],
       "githubUrl": "https://github.com/OmkarDeshmukh16",
@@ -50,7 +50,7 @@
       "title": "KrishiRakshak",
       "description": "AI-driven Agri-Tech platform offering real-time crop disease diagnosis, localized pest surveillance alerts, and predictive farming advisory for farmers.",
       "longDescription": "KrishiRakshak is an Agri-Tech platform built to empower Indian farmers with intelligent crop diagnostics. Leveraging computer vision models and real-time agricultural APIs, the system identifies plant diseases from mobile leaf photos, offers verified organic and chemical treatments, and issues localized alerts for weather extremes and pest outbreaks in regional languages.",
-      "image": "images/projects/hawkseye.jpg",
+      "image": "images/projects/krishirakshak.png",
       "fallbackImage": "https://placehold.co/800x500/0f2618/4ade80?text=KrishiRakshak",
       "technologies": ["Python", "Computer Vision", "TensorFlow", "React.js", "Node.js", "Weather APIs"],
       "githubUrl": "https://github.com/OmkarDeshmukh16",
@@ -72,7 +72,7 @@
       "title": "VasuNiti - IT company",
       "description": "Enterprise digital presence and client solutions platform for VasuNiti, delivering modern web applications, scalable digital products, and IT consulting.",
       "longDescription": "VasuNiti is an IT and software solutions company delivering cutting-edge digital experiences and enterprise architectures. The platform serves as the central hub for showcasing services, case studies, automated client scoping, and digital delivery pipelines, built with modern web technologies, responsive dark aesthetics, and optimized cloud deployments.",
-      "image": "images/projects/event-management.jpg",
+      "image": "images/projects/vasuniti.png",
       "fallbackImage": "https://placehold.co/800x500/1c122e/cc88ff?text=VasuNiti+-+IT+Company",
       "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailored UI Systems", "Cloud Deployment"],
       "githubUrl": "https://github.com/OmkarDeshmukh16",
@@ -94,7 +94,7 @@
       "title": "MyFin AI – AI Finance Controller",
       "description": "Specification-driven finance controller that automates high-throughput payment reconciliation across multi-source financial chains with AI exception investigation.",
       "longDescription": "Built for the Razorpay Buildathon, MyFin AI is a specification-driven financial controller that automates high-throughput payment reconciliation across multi-source financial chains. Features AI-driven exception and dispute investigation, automated audit logs, and real-time transaction health metrics.",
-      "image": "images/projects/jobtracker.jpg",
+      "image": "images/projects/myfin.png",
       "fallbackImage": "https://placehold.co/800x500/2a1a08/ffb84d?text=MyFin+AI+Controller",
       "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "AI API", "Gemini API", "Razorpay APIs"],
       "githubUrl": "https://github.com/OmkarDeshmukh16",
@@ -116,7 +116,7 @@
       "title": "Shiksha Netra – School Management System (SaaS)",
       "description": "Multi-tenant SaaS platform for student records, teacher data, fee management, and automated Leaving Certificate & Bonafide letter generation.",
       "longDescription": "Developed a multi-tenant platform for student records, teacher data and fee management. Automates Leaving Certificate (LC) and Bonafide letter generation, drastically cutting manual administrative paperwork for school staff. Deployed live with responsive portals.",
-      "image": "images/projects/brilliant-pro.jpg",
+      "image": "images/projects/sn.png",
       "fallbackImage": "https://placehold.co/800x500/0a252b/5be9ff?text=Shiksha+Netra+SaaS",
       "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "REST APIs", "Netlify"],
       "githubUrl": "https://github.com/OmkarDeshmukh16",
@@ -138,7 +138,7 @@
       "title": "Fitpulse – Gym Management System (SaaS)",
       "description": "SaaS gym system featuring member portals, reusable workout/diet templates, client-side nutrition calculator, and a Grok-powered AI chatbot.",
       "longDescription": "Built member records, memberships and a member portal with trainer-assigned workout and diet plans using a reusable template pattern. Features client-side nutrition calculator with goal-based diet template matching and an integrated AI chatbot powered by Grok API for instant guidance.",
-      "image": "images/projects/event-management.jpg",
+      "image": "images/projects/fitpulse.png",
       "fallbackImage": "https://placehold.co/800x500/1e0a2b/cc88ff?text=Fitpulse+Gym+SaaS",
       "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "Grok API", "Vercel"],
       "githubUrl": "https://github.com/OmkarDeshmukh16",
@@ -153,6 +153,27 @@
         "Client-side nutrition calculator with goal-based calorie and macro matching",
         "Integrated AI chatbot powered by Grok API for instant fitness guidance",
         "Live deployment on Vercel: fitpulse-zeta-five.vercel.app"
+      ]
+    },
+    {
+      "id": "nagarverse",
+      "title": "NagarVerse – Civic & City Discovery",
+      "description": "Interactive urban discovery and civic engagement platform empowering citizens to explore municipal utilities, local events, and neighborhood hubs.",
+      "longDescription": "NagarVerse is a civic technology platform connecting citizens to their urban environment. It offers real-time local updates, civic grievance reporting, community event schedules, and geo-enabled discovery of essential city facilities and municipal public resources.",
+      "image": "images/projects/nagarverse.png",
+      "fallbackImage": "https://placehold.co/800x500/0a182b/5be9ff?text=NagarVerse",
+      "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "Geolocation APIs"],
+      "githubUrl": "https://github.com/OmkarDeshmukh16",
+      "liveUrl": null,
+      "featured": false,
+      "ongoing": false,
+      "category": "web",
+      "date": "2025",
+      "features": [
+        "Interactive geolocation-enabled city exploration map",
+        "Citizen issue lodging and municipal department routing",
+        "Community notice board for local announcements and city advisories",
+        "Responsive cross-device interface with real-time sync"
       ]
     },
     {
@@ -174,27 +195,6 @@
         "Agentic tool calling and structured function execution",
         "Prompt engineering pipelines for domain-specific response grounding",
         "Contextual memory handling across multi-turn sessions"
-      ]
-    },
-    {
-      "id": "mern-developer-hub",
-      "title": "MERN Developer & Analytics Suite",
-      "description": "High-performance full-stack dashboard with role-based authentication, MongoDB aggregation pipelines, and responsive React UI.",
-      "longDescription": "Engineered as a reusable foundation for startup initiatives at the incubation center. Features JWT-based role-based access control, responsive dashboards, and optimized REST APIs for low-latency queries.",
-      "image": "images/projects/bitebook.jpg",
-      "fallbackImage": "https://placehold.co/800x500/121820/ffb84d?text=MERN+Analytics+Suite",
-      "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "REST APIs"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
-      "liveUrl": null,
-      "featured": false,
-      "ongoing": false,
-      "category": "tool",
-      "date": "2025",
-      "features": [
-        "Role-Based Access Control (RBAC) with secure JWT sessions",
-        "MongoDB schema optimization and aggregation pipeline queries",
-        "Modular React component system with accessible design",
-        "Comprehensive REST API test suites and documentation"
       ]
     }
   ]

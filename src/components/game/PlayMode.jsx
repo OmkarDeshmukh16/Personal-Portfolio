@@ -354,8 +354,8 @@ const GameStage = ({ onExit }) => {
           </p>
           <div className="result__actions">
             <a
-              href="/assets/resume/omkar_resume.pdf"
-              download="omkar_resume.pdf"
+              href="/assets/resume/Omkar_Deshmukh_SWE_Intern_Resume.pdf"
+              download="Omkar_Deshmukh_SWE_Intern_Resume.pdf"
               className="btn btn--primary btn--lg"
             >
               <span>Download résumé</span>

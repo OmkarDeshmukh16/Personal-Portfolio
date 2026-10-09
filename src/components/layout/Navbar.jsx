@@ -69,8 +69,8 @@ const Navbar = () => {
             )}
             <Magnetic strength={0.4}>
               <a
-                href="/assets/resume/omkar_resume.pdf"
-                download="omkar_resume.pdf"
+                href="/assets/resume/Omkar_Deshmukh_SWE_Intern_Resume.pdf"
+                download="Omkar_Deshmukh_SWE_Intern_Resume.pdf"
                 className="btn btn--primary"
               >
                 <span>Résumé</span>
@@ -114,8 +114,8 @@ const Navbar = () => {
             </NavLink>
           )}
           <a
-            href="/assets/resume/omkar_resume.pdf"
-            download="omkar_resume.pdf"
+            href="/assets/resume/Omkar_Deshmukh_SWE_Intern_Resume.pdf"
+            download="Omkar_Deshmukh_SWE_Intern_Resume.pdf"
             className="mobile-menu__link"
             style={{ transitionDelay: `${0.08 + (LINKS.length + 1) * 0.06}s` }}
           >

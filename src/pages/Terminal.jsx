@@ -103,10 +103,10 @@ const Terminal = () => {
       ),
     resume: () => {
       const a = document.createElement('a');
-      a.href = '/assets/resume/omkar_resume.pdf';
-      a.download = 'omkar_resume.pdf';
+      a.href = '/assets/resume/Omkar_Deshmukh_SWE_Intern_Resume.pdf';
+      a.download = 'Omkar_Deshmukh_SWE_Intern_Resume.pdf';
       a.click();
-      print(['Downloading omkar_resume.pdf …'], 'amber');
+      print(['Downloading Omkar_Deshmukh_SWE_Intern_Resume.pdf …'], 'amber');
     },
     play: () => {
       print(['Fueling rocket … cursor is now a spacecraft. Go collect the orbs!'], 'amber');

@@ -6,6 +6,7 @@ import ProjectCard from '@/components/projects/ProjectCard';
 import ProjectModal from '@/components/projects/ProjectModal';
 import Magnetic from '@/components/core/Magnetic';
 import { useGetProjects } from '@/hooks/useGetProjects';
+import { resolveAssetPath } from '@/components/utils/paths';
 
 const CATEGORY_LABELS = {
   all: 'All',
@@ -115,6 +116,21 @@ const Projects = () => {
                     </div>
                     <span className="tag tag--accent">{CATEGORY_LABELS[project.category] || project.category}</span>
                   </div>
+
+                  {project.image && (
+                    <div className="ongoing-card__media">
+                      <img
+                        src={resolveAssetPath(project.image)}
+                        alt={project.title}
+                        loading="lazy"
+                        decoding="async"
+                        onError={e => {
+                          if (project.fallbackImage) e.currentTarget.src = project.fallbackImage;
+                        }}
+                      />
+                      <div className="ongoing-card__shine" />
+                    </div>
+                  )}
 
                   <h3 className="ongoing-card__title">{project.title}</h3>
                   <p className="ongoing-card__desc">{project.description}</p>
@@ -338,6 +354,31 @@ const Projects = () => {
           border-color: rgba(91, 233, 255, 0.45);
           background: rgba(22, 28, 44, 0.9);
           box-shadow: 0 16px 36px -12px rgba(0, 0, 0, 0.5), 0 0 24px -6px rgba(91, 233, 255, 0.15);
+        }
+        .ongoing-card__media {
+          position: relative;
+          width: 100%;
+          height: 190px;
+          border-radius: var(--radius-sm);
+          overflow: hidden;
+          background: rgba(8, 10, 16, 0.8);
+          border: 1px solid var(--line);
+        }
+        .ongoing-card__media img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: top center;
+          transition: transform 0.6s var(--ease-out);
+        }
+        .ongoing-card:hover .ongoing-card__media img {
+          transform: scale(1.05);
+        }
+        .ongoing-card__shine {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(180deg, transparent 50%, rgba(7, 8, 13, 0.6) 100%);
+          pointer-events: none;
         }
         .ongoing-card__top {
           display: flex;
