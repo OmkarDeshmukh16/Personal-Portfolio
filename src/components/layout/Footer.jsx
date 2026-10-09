@@ -44,8 +44,7 @@ const Footer = () => {
         <hr className="hr-glow" />
 
         <p className="footer__colophon" data-reveal>
-          Designed <span className="amber">&amp;</span> engineered from scratch — hand-written GLSL
-          shaders, custom motion, 60fps, accessible by design. No templates, no page builders.
+          Dream | Hardworks | Succeed
         </p>
 
         <div className="footer__bottom">

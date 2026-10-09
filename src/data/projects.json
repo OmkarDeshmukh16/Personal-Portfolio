@@ -7,8 +7,15 @@
       "longDescription": "Selected as Full stack engineer to build, at the DYPCOE&I Incubation Centre, an Outcome Based Education (OBE) system that faculty, Heads of Departments (HODs), and the principal use for CO-PO mapping and attainment calculation, as mandated by NBA and NAAC accreditation standards. Automates complex direct and indirect attainment formulas, course outcome assessments, and department-wide accreditation reporting.",
       "image": "images/projects/obe.png",
       "fallbackImage": "https://placehold.co/800x500/132038/5be9ff?text=OBE+Evaluation+System",
-      "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "REST APIs", "MERN Stack"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
+      "technologies": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "REST APIs",
+        "MERN Stack"
+      ],
+      "githubUrl": null,
       "liveUrl": null,
       "featured": true,
       "ongoing": true,
@@ -30,9 +37,17 @@
       "longDescription": "Aahaar AI is an intelligent health-tech platform engineered to revolutionize dietary wellness. Built around modern LLM intelligence and nutritional data science, it generates personalized meal plans tailored to regional Indian diets, calculates accurate real-time macro breakdowns, and provides proactive conversational guidance for fitness, clinical dietary needs, and lifestyle improvement.",
       "image": "images/projects/aahaar-ai.png",
       "fallbackImage": "https://placehold.co/800x500/1f1a10/ffb84d?text=Aahaar+AI",
-      "technologies": ["React.js", "Node.js", "Python", "Gemini API", "Claude API", "Tailored Nutrition Algorithms"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
-      "liveUrl": null,
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Python",
+        "LLM",
+        "RAG",
+        "Grok API",
+        "Tailored Nutrition Algorithms"
+      ],
+      "githubUrl": "https://github.com/OmkarDeshmukh16/Aahaar.ai",
+      "liveUrl": "https://aahaar-ai.vercel.app/",
       "featured": true,
       "ongoing": true,
       "status": "In Active Development",
@@ -40,7 +55,7 @@
       "date": "Ongoing",
       "features": [
         "AI-driven meal planning engine respecting regional cultural diets and dietary restrictions",
-        "Interactive dietary chatbot powered by Gemini & Claude APIs",
+        "Interactive dietary chatbot powered by Grok & Claude APIs",
         "Dynamic calorie and macro-nutrient balance calculator with visual progress metrics",
         "Personalized nutritional recommendation pipelines for fitness and clinical goals"
       ]
@@ -52,8 +67,15 @@
       "longDescription": "KrishiRakshak is an Agri-Tech platform built to empower Indian farmers with intelligent crop diagnostics. Leveraging computer vision models and real-time agricultural APIs, the system identifies plant diseases from mobile leaf photos, offers verified organic and chemical treatments, and issues localized alerts for weather extremes and pest outbreaks in regional languages.",
       "image": "images/projects/krishirakshak.png",
       "fallbackImage": "https://placehold.co/800x500/0f2618/4ade80?text=KrishiRakshak",
-      "technologies": ["Python", "Computer Vision", "TensorFlow", "React.js", "Node.js", "Weather APIs"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
+      "technologies": [
+        "Python",
+        "Computer Vision",
+        "TensorFlow",
+        "React.js",
+        "Node.js",
+        "Weather APIs"
+      ],
+      "githubUrl": "https://github.com/OmkarDeshmukh16/krishirakshak",
       "liveUrl": null,
       "featured": true,
       "ongoing": true,
@@ -74,9 +96,16 @@
       "longDescription": "VasuNiti is an IT and software solutions company delivering cutting-edge digital experiences and enterprise architectures. The platform serves as the central hub for showcasing services, case studies, automated client scoping, and digital delivery pipelines, built with modern web technologies, responsive dark aesthetics, and optimized cloud deployments.",
       "image": "images/projects/vasuniti.png",
       "fallbackImage": "https://placehold.co/800x500/1c122e/cc88ff?text=VasuNiti+-+IT+Company",
-      "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailored UI Systems", "Cloud Deployment"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
-      "liveUrl": null,
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailored UI Systems",
+        "Cloud Deployment"
+      ],
+      "githubUrl": "https://github.com/OmkarDeshmukh16/VasuNiti",
+      "liveUrl": "https://vasuniti.com",
       "featured": true,
       "ongoing": true,
       "status": "In Active Development",
@@ -96,8 +125,16 @@
       "longDescription": "Built for the Razorpay Buildathon, MyFin AI is a specification-driven financial controller that automates high-throughput payment reconciliation across multi-source financial chains. Features AI-driven exception and dispute investigation, automated audit logs, and real-time transaction health metrics.",
       "image": "images/projects/myfin.png",
       "fallbackImage": "https://placehold.co/800x500/2a1a08/ffb84d?text=MyFin+AI+Controller",
-      "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "AI API", "Gemini API", "Razorpay APIs"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
+      "technologies": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "AI API",
+        "Gemini API",
+        "Razorpay APIs"
+      ],
+      "githubUrl": "https://github.com/OmkarDeshmukh16/MyFin-AI",
       "liveUrl": null,
       "featured": true,
       "ongoing": false,
@@ -118,8 +155,15 @@
       "longDescription": "Developed a multi-tenant platform for student records, teacher data and fee management. Automates Leaving Certificate (LC) and Bonafide letter generation, drastically cutting manual administrative paperwork for school staff. Deployed live with responsive portals.",
       "image": "images/projects/sn.png",
       "fallbackImage": "https://placehold.co/800x500/0a252b/5be9ff?text=Shiksha+Netra+SaaS",
-      "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "REST APIs", "Netlify"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
+      "technologies": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "REST APIs",
+        "Netlify"
+      ],
+      "githubUrl": "https://github.com/OmkarDeshmukh16/ShikshaNetra",
       "liveUrl": "https://shikshanetra.netlify.app",
       "featured": true,
       "ongoing": false,
@@ -140,8 +184,15 @@
       "longDescription": "Built member records, memberships and a member portal with trainer-assigned workout and diet plans using a reusable template pattern. Features client-side nutrition calculator with goal-based diet template matching and an integrated AI chatbot powered by Grok API for instant guidance.",
       "image": "images/projects/fitpulse.png",
       "fallbackImage": "https://placehold.co/800x500/1e0a2b/cc88ff?text=Fitpulse+Gym+SaaS",
-      "technologies": ["MongoDB", "Express.js", "React.js", "Node.js", "Grok API", "Vercel"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
+      "technologies": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "Grok API",
+        "Vercel"
+      ],
+      "githubUrl": "https://github.com/OmkarDeshmukh16/Fitpulse",
       "liveUrl": "https://fitpulse-zeta-five.vercel.app",
       "featured": true,
       "ongoing": false,
@@ -162,9 +213,15 @@
       "longDescription": "NagarVerse is a civic technology platform connecting citizens to their urban environment. It offers real-time local updates, civic grievance reporting, community event schedules, and geo-enabled discovery of essential city facilities and municipal public resources.",
       "image": "images/projects/nagarverse.png",
       "fallbackImage": "https://placehold.co/800x500/0a182b/5be9ff?text=NagarVerse",
-      "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "Geolocation APIs"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
-      "liveUrl": null,
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Geolocation APIs"
+      ],
+      "githubUrl": "https://github.com/OmkarDeshmukh16/nagarverse",
+      "liveUrl": "https://nagarverse.vercel.app/",
       "featured": false,
       "ongoing": false,
       "category": "web",
@@ -174,27 +231,6 @@
         "Citizen issue lodging and municipal department routing",
         "Community notice board for local announcements and city advisories",
         "Responsive cross-device interface with real-time sync"
-      ]
-    },
-    {
-      "id": "ai-agentic-assistant",
-      "title": "AI Agentic Workflows & LLM Integration",
-      "description": "Applied ML and prompt-engineered workflows integrating Gemini and Claude APIs into intelligent developer assistants.",
-      "longDescription": "A system exploring agentic workflows, multi-turn reasoning, and contextual prompt engineering. Connects Claude and Gemini APIs to backend tool dispatchers, providing real-time data handling and conversational assistance.",
-      "image": "images/projects/ai-chess.jpg",
-      "fallbackImage": "https://placehold.co/800x500/0a1a2b/5be9ff?text=AI+Agentic+Workflows",
-      "technologies": ["Python", "JavaScript", "Gemini API", "Claude API", "Prompt Engineering"],
-      "githubUrl": "https://github.com/OmkarDeshmukh16",
-      "liveUrl": null,
-      "featured": false,
-      "ongoing": false,
-      "category": "ai",
-      "date": "2026",
-      "features": [
-        "Multi-model integration supporting Gemini API and Claude API",
-        "Agentic tool calling and structured function execution",
-        "Prompt engineering pipelines for domain-specific response grounding",
-        "Contextual memory handling across multi-turn sessions"
       ]
     }
   ]
